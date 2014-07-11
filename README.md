@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .mn-wi-99  {  min-width: 99%; }
 .mn-wi-100  { min-width: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mn-wi-1-ns {    min-width: 1%; }
   .mn-wi-2-ns {    min-width: 2%; }
   .mn-wi-3-ns {    min-width: 3%; }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .mn-wi-100-ns { min-width: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
 
   .mn-wi-1-m {    min-width: 1%; }
   .mn-wi-2-m {    min-width: 2%; }
@@ -327,7 +327,7 @@ or download the css on github and include in your project.
   .mn-wi-100-m { min-width: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mn-wi-1-l {    min-width: 1%; }
   .mn-wi-2-l {    min-width: 2%; }
   .mn-wi-3-l {    min-width: 3%; }
