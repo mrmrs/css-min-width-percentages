@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-min-width-percentages
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-min-width-percentages)
+
 
 ## File Size
 
+14K min-width-percentages.css
+10K min-width-percentages.min.css
 
 ## The Code
 ```
