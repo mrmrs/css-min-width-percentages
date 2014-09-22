@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-min-width-percentages)
 ## File Size
 
 14K min-width-percentages.css
-10K min-width-percentages.min.css
+10K min-width-percentages.min.css 
+1minified and gzipped
 
 ## The Code
 ```
