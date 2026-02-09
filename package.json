@@ -1,38 +1,44 @@
 {
   "name": "css-min-width-percentages",
-  "style": "min-width-percentages.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-min-width-percentages",
-  "description": "Css module of single purpose classes for min width percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for min-width-percentages",
+  "style": "dist/min-width-percentages.css",
+  "main": "dist/min-width-percentages.css",
+  "exports": {
+    ".": "./dist/min-width-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "min-width-percentages"
+    "min-width-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-min-width-percentages": {
+  "homepage": "https://github.com/mrmrs/css-min-width-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-min-width-percentages.git"
+    "url": "https://github.com/mrmrs/css-min-width-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-min-width-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-min-width-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
