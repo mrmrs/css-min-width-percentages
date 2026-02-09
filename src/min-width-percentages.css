@@ -103,7 +103,7 @@
 .mn-wi-99  {  min-width: 99%; }
 .mn-wi-100  { min-width: 100%; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mn-wi-1-s {    min-width: 1%; }
   .mn-wi-2-s {    min-width: 2%; }
   .mn-wi-3-s {    min-width: 3%; }
@@ -206,7 +206,7 @@
   .mn-wi-100-s { min-width: 100%; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
 
   .mn-wi-1-m {    min-width: 1%; }
   .mn-wi-2-m {    min-width: 2%; }
@@ -310,7 +310,7 @@
   .mn-wi-100-m { min-width: 100%; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mn-wi-1-l {    min-width: 1%; }
   .mn-wi-2-l {    min-width: 2%; }
   .mn-wi-3-l {    min-width: 3%; }
